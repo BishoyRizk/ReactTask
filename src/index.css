@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  text-decoration: none;
+  list-style: none;
+}
+
+input{
+  border: none;
+  border-bottom: 1px solid gray;
+  
+}
+:focus{
+  outline: none;
+}
+.About{
+  min-height: 60vh;
+  
+}
+
+
+.first{
+  
+  
+  width: 80px;
+  height: 3px;
+  margin-right: 30px;
+  background-color: white;
+ 
+}
+
+.second{
+  width: 80px;
+  height: 3px;
+  margin-right: 30px;
+  background-color: white;
+}
+
+.start{
+  min-height: 60vh;
+
+}
+
+.one{
+  width: 80px;
+  height: 3px;
+  margin-right: 30px;
+  background-color: white;
+}
+
+
+
+.two{
+  width: 80px;
+  height: 3px;
+  margin-left: 30px;
+  background-color: white;
+}
+
+
+
+.three{
+  width: 80px;
+  height: 3px;
+  margin-right: 30px;
+  background-color: black;
+}
+
+
+.four{
+  width: 80px;
+  height: 3px;
+  margin-left: 30px;
+  background-color: black;
+}
+
+
+.layer{
+  width: 100%;
+  height: 100%;
+  background-color: #1abc9cae;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 1s;
+}
+
+.plus{
+  font-size: 5rem;
+  color: white;
+}
+
+
+.holder:hover .layer{
+opacity: 1;
+}
+
+
+
+.bgabout{
+  background-color: #1ABC9C;
+  color: white;
+}
+
+
+.bgfooter{
+  background-color: #2C3E50;
+}
+
+
+.bgfootertwo{
+  background-color: #1A252F;
+}
+
+.icons i {
+  width: 50px;
+  height: 50px;
+  border: 2px white solid;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+
+
+.start{
+  background-color: #1ABC9C ;
+  color: white;
+  overflow: hidden;
+}
+.active{
+  background-color: #1ABC9C;
+  margin: 10px 0 ;
+  padding: 10px;
+  color: #000 !important;
+  border-radius: 5px;
+
+}
+.nav-item{
+  margin: 0 20px ;
+}
+a{
+  text-decoration: none !important;
+  color: #fff !important;
+  margin: 0 5px;
+}
+
+
+.min{
+  min-height: 70vh;
+}
+
+
+.contact{
+  min-height: 70vh;
+}
